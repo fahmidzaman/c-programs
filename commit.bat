@@ -5,6 +5,4 @@ git add .
 echo.
 git commit -m "New Code Added"
 echo.
-git push
-echo.
 pause
