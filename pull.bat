@@ -1,3 +1,13 @@
-echo "This is to pull the latest repo"
+echo off
+cls
+echo This is to pull the latest repository
+echo.
+git stash
+echo.
 git fetch origin --prune
-git pull
+echo.
+git stash pop
+echo.
+git rebase origin/main
+echo.
+pause
